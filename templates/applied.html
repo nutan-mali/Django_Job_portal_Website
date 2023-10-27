@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Success</title>
+    <style>
+        body {
+            background-color: #c79a9a;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .success-icon {
+            font-size: 48px;
+            color: #28a745;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <i class="success-icon fas fa-check-circle"></i>
+        
+        <h2>Successfully Applied!</h2>
+        <h4><p>Your application submitted!</p>
+        <p>Thank you {{ user.username }} .</p></h4>
+        <p><a href="/">Back to Home</a></p>
+        <p><a href="/job_seeker/">Back to Job searching</a></p>
+        
+    </div>
+   
+</body>
+</html>
