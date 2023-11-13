@@ -13,7 +13,7 @@ class jobPost(models.Model):
     experience = models.TextField(null=True)
     technologies = models.TextField(null=True)
     company_name = models.CharField(max_length = 50, null = True)
-    date_posted = models.DateField()
+    date_posted = models.DateField(default=timezone.now)
     salary = models.DecimalField(max_digits = 10, decimal_places = 2, null = True)
     location = models.CharField(max_length = 50,null = True)
     education_required = models.CharField(max_length =50,null = True)
