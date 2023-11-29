@@ -93,7 +93,7 @@
     <h3 class = 'alert alert-success my-5 text-center'>Here you can Post Your Job</h3>
         {% if user.is_authenticated %}
     <div class = 'row>
-        <div class = 'col clo-8 offset-2'>
+        <div class = 'col clo-8 offset-2' >
     <form method = "Post">
         {% csrf_token %}
         {{form.as_p}}
