@@ -13,7 +13,7 @@ class jobPost(models.Model):
     experience = models.TextField(null=True)
     technologies = models.TextField(null=True)
     company_name = models.CharField(max_length = 50, null = True)
-    date_posted = models.DateField(default=timezone.now)
+    date_posted = models.TextField(max_length = 10, null = True)
     salary = models.DecimalField(max_digits = 10, decimal_places = 2, null = True)
     location = models.CharField(max_length = 50,null = True)
     education_required = models.CharField(max_length =50,null = True)
@@ -21,8 +21,7 @@ class jobPost(models.Model):
     no_of_positions = models.DecimalField(max_digits = 10, decimal_places = 2, null = True)
     applied_by_users = models.ManyToManyField(User, related_name='applied_jobs', blank=True)
 
-    # applicants = 
-    # action = 
+    
     def __str__(self):
         return self.job_title
     
