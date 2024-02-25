@@ -83,10 +83,10 @@
                             <!-- an error submitting the form-->
                             <div class="d-none my-5" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                             <input type="submit" value="Submit" class="btn btn-primary btn-xl">
+                             <input type="submit" value="Submit" onclick = 'contact()' class="btn btn-primary btn-xl">
                              
                               <a class="btn btn-primary btn-xl" href="{% url 'home' %}">Back to Home Page</a>
-                            {% comment %} <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div> {% endcomment %}
+                            
                         </form>
                     </div>
                 </div>
@@ -114,6 +114,11 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+        function contact(){
+            alert('Thanks For Contact me! I will Get Back to You soon' )
+        }
+        </script>
     </body>
 </html>
 
