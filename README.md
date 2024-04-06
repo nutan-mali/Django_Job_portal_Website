@@ -74,27 +74,33 @@ Implement additional features like job search, notifications, and user profiles 
 
 # Admin Panel
 URL: /admin/
+
 Description: Default URL for accessing the Django admin panel.
 
 # Home Page
 URL: /
+
 Description: Homepage URL linked to the views.index function to display the home page.
 
 # Sign-up Page
 URL: /signup/
+
 Description: URL for the sign-up page linked to the views.signup function.
 
 # Login Page
 URL: /login/
+
 Description: URL for the login page linked to the views.login function.
 
 
 
 # Employer Page
 URL: /employer/
+
 Description: URL for employer-specific functionality linked to the views.employer function.
 
 
 # Job Seeker Page
 URL: /job_seeker/
+
 Description: URL for job seeker-specific functionality linked to the views.job_seeker function.
