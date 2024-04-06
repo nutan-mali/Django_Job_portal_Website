@@ -20,12 +20,19 @@ Models: Define data models for users, jobs, applications, etc.
 Views: Handle user requests, render templates, and manage logic.
 Templates: HTML templates for user interface design.
 URLs: Routing URLs to corresponding views.
-Getting Started
+
+# Getting Started
+
 Clone Repository: Get the project code on your local machine.
+
 Install Dependencies: Install Python, Django, and project dependencies using pip.
+
 Setup Virtual Environment: Isolate project dependencies using a virtual environment.
+
 Database Setup: Run database migrations to create necessary tables.
+
 Run Development Server: Start the Django development server to preview the website.
+
 Access the Website: Navigate to the sign-up page, select your role, and create an account to explore the functionalities.
 Setup Instructions
 
@@ -33,6 +40,7 @@ Setup Instructions
 Copy code
 # Clone the repository
 git clone <https://github.com/nutan-mali/Job_portal>
+
 cd project_folder
 
 # Install dependencies
@@ -43,6 +51,7 @@ python manage.py migrate
 
 # Start development server
 python manage.py runserver
+
 Additional Notes
 Customize templates and stylesheets for a personalized look.
 Implement additional features like job search, notifications, and user profiles as needed.
