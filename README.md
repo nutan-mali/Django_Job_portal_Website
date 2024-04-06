@@ -1,8 +1,8 @@
-Django Job Portal Website
+# Django Job Portal Website
 This Django-based job portal website offers a streamlined experience for both employers and job seekers, featuring a user-friendly interface and role-specific functionalities.
 
-Features
-User Roles
+# Features
+# User Roles
 Employer: Post, read, edit, and delete job listings.
 Job Seeker: Apply for jobs, upload resumes, and manage applications.
 Sign-up and Login
@@ -28,10 +28,11 @@ Database Setup: Run database migrations to create necessary tables.
 Run Development Server: Start the Django development server to preview the website.
 Access the Website: Navigate to the sign-up page, select your role, and create an account to explore the functionalities.
 Setup Instructions
-bash
+
+
 Copy code
 # Clone the repository
-git clone <repository_url>
+git clone <https://github.com/nutan-mali/Job_portal>
 cd project_folder
 
 # Install dependencies
