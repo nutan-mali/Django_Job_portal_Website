@@ -4,21 +4,34 @@ This Django-based job portal website offers a streamlined experience for both em
 # Features
 # User Roles
 Employer: Post, read, edit, and delete job listings.
+
 Job Seeker: Apply for jobs, upload resumes, and manage applications.
-Sign-up and Login
+
+# Sign-up and Login
+
 Sign-up Page: Register with email, password, and choose role (employer or job seeker) using radio buttons.
+
 Login Page: Secure access for authenticated users.
+
 Role Selection
+
 During sign-up, users select their role using radio buttons:
 
+
 Employer Radio Button: Register as an employer.
+
 Job Seeker Radio Button: Register as a job seeker.
-Project Structure
+
+# Project Structure
+
 The project adheres to Django's standard structure:
 
 Models: Define data models for users, jobs, applications, etc.
+
 Views: Handle user requests, render templates, and manage logic.
+
 Templates: HTML templates for user interface design.
+
 URLs: Routing URLs to corresponding views.
 
 # Getting Started
